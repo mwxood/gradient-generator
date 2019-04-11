@@ -14,16 +14,14 @@ function setGradient() {
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 
-css.textContent = body.style.background + ";";
-
 randomColorButton.addEventListener("click", function() {
     body.style.background =
-        "linear-gradient(to right," +  randomColor() + "," + randomColor() +")";
+        "linear-gradient(to right," +  randomColor() + "," + randomColor(); +")";
+    css.textContent = body.style.background + ";";
 });
 
 function randomColor() {
     return "#" + Math.random().toString(16).slice(2,8).toLocaleUpperCase();
 }
-
-randomColor();
+css.textContent = body.style.background + ";";
 
