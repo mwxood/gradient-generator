@@ -1,0 +1,18 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+
+}
+h1, h2 {text-transform: uppercase;}
+h1{letter-spacing: .5em;}
+h2{letter-spacing: 0.05em;}
+.random-color {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    background: #53baff;
+    color: #fff;
+    text-transform: uppercase;
+}
