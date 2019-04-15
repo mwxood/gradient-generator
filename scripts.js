@@ -25,8 +25,6 @@ class Gradient {
     }
 }
 
-
-
 let color1 = document.querySelector(".color1"),
     color2 = document.querySelector(".color2"),
     body = document.getElementById("gradient"),
